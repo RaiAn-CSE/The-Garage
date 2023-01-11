@@ -1,0 +1,185 @@
+/*************
+ google fonts
+ *************  */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --font1: 'Berkshire Swash', cursive;
+    --font2: 'Manrope', sans-serif;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.title {
+    color: #015196 !important;
+}
+
+.trusted-company img {
+    height: 60%;
+    width: 60%;
+}
+
+.slider-btn {
+    background-color: #015196;
+    text-decoration: none;
+}
+
+.register-btn {
+    background-color: #015196;
+    color: white;
+}
+
+.company-info>div {
+    flex-basis: 50%;
+}
+
+.company-info a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    background-color: #151A1A;
+}
+
+input[type=email] {
+    background-color: #2f273e;
+    border: none;
+    color: white;
+
+}
+
+footer .submit-btn {
+    margin-top: 6px;
+    background-color: #015196;
+    color: white;
+
+}
+
+.horizontal-line {
+    color: gray;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-side-footer>div {
+    flex-basis: 50%;
+}
+
+.left-side-footer>div>p>a {
+    margin-right: 8px;
+}
+
+
+
+.collection-content {
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+
+}
+
+.blog-banner img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-button {
+    margin-bottom: 15px;
+    padding: 3px 15px;
+    border: 1px solid #161616;
+    color: #161616;
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.blog-message p {
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.duration-message {
+    display: flex;
+    column-gap: 30px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.duration-message .duration-message-icon {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.duration-message span {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card {
+    font-family: var(--font2);
+}
+
+.card,
+.card img {
+    border-radius: 0;
+}
+
+.card img {
+    height: 220px;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+.card-body h5 {
+    font-weight: 800;
+}
+
+.card-body p {
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+.button {
+    width: 100%;
+    font-weight: 700;
+    padding: 10px 80px;
+    background-color: #015196;
+    border: 1px solid black;
+}
+
+.button:hover,
+.see-btn:hover {
+    border: 1px solid #015196;
+    color: white;
+    background-color: black;
+}
+
+.see-btn {
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: #015196;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
